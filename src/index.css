@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.app-styling {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(to right,blue,indigo,violet);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-styling {
+  color: orange;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  font-family:verdana;
+  text-shadow: 1.5px 1.5px white;
+}
+
+.row-styling {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.span-styling {
+  height: 30px;
+  width: 30px;
+  border: 10px solid #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 5px;
+  font-family:verdana;
+  border-radius: 5px;
+}
+
+.winner-styling {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+  font-family:verdana;
+  text-shadow: 1.5px 1.5px orange;
+}
+
+.button {
+  margin: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: orangered;
+  border: none;
+  font-weight: bold;
+  font-family:verdana;
+  border-radius: 8px;
+  box-shadow: 0 2px pink;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+  background-color: orangered;
+  box-shadow: 1px 2px pink;
+  transform: translateY(2px);
+}
